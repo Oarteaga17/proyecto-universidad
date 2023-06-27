@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(FONDE\ DE\ PAGINA\ TRES.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family:'Lato', sans-serif; 
+    
+    
+}
+
+img{
+    width: 350px;
+    float: left;
+    padding: 5px;
+}
+
+.titulo{
+    font-size: 30px;
+    background-color: #AED6F1;
+    width: 400px;
+    border-radius: 10px;
+    margin-left: 500px;
+    transition: all 1s;
+    margin-top: 30px;
+    color:#F8FBFE
+
+}
+
+.titulo:hover{
+    background-color: #5DADE2;
+    border-radius: 10px;
+    width: 340px;
+
+}
+
+.card {
+    width: 450px;
+    height: 430px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 10px;
+    background-color: #F8FBFE;
+    border-radius: 8px;
+    z-index: 1;
+   }
+   
+   .tools {
+    display: flex;
+    align-items: center;
+    padding: 9px;
+   }
+   
+   .circle {
+    padding: 0 4px;
+   }
+   
+   .box {
+    display: inline-block;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+    padding: 1px;
+    border-radius: 50%;
+   }
+   
+   .red {
+    background-color: #ff605c;
+   }
+   
+   .yellow {
+    background-color: #ffbd44;
+   }
+   
+   .green {
+    background-color: #00ca4e;
+   }
+
+::placeholder{
+    font-family: monospace;
+    color:#000;
+    transition: all 0.4s;
+}
+::placeholder:hover{
+    color: #F8FBFE;
+}
+
+input{
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 70px;
+    border: solid 1.5px transparent;
+    border-radius: 1rem;
+    background: #F8FBFE;
+    padding: 1rem;
+    transition: all 0.6s;
+    font-size: 1rem;
+    color: #000;
+    }
+
+    input:hover{
+        color: #000;
+        background-color: #5DADE2;
+    }
+
+.boton input{
+    width: 200px;
+    margin-left: 200px;
+}
+
+a{
+    color: #000;
+    font-size: 25px;
+    font-family:monospace;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 10px;
+    transition: all 1s;
+}
+
+a:hover{
+    color: #F8FBFE;
+    padding: 5px;
+    background-color: #000;
+}
